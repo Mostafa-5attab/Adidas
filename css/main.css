@@ -1,0 +1,70 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(#111,#222);
+    height: 100vh;
+    width: 100%;
+  
+   
+    
+}
+.screen::before{
+    content: "";
+    width: 85%;
+    height: 85%;
+    background-color: red;
+    position: absolute;
+    clip-path: circle(40% at right 50%);
+    z-index: -1;
+}
+/*start NavBar*/
+    
+    .navbar .navbar-brand{
+        color: aliceblue;
+        font-size: 45px;
+        font-weight: bold;
+        letter-spacing:5px ;
+    }
+    .navbar .navbar-nav .nav-link{
+        color: aliceblue;
+        font-size: 20px;
+    }
+
+    .navbar .navbar-nav .nav-link:hover,
+    .navbar .navbar-nav .nav-link:focus{
+        color: aqua;
+
+    }
+    .navbar .navbar-toggler{
+        color: white;
+        font-size: 25px;
+        border-color: aliceblue ;
+    }
+/*End NavBar */
+
+/* start body */
+
+.screen{
+    height: 80%;
+    width: 80%;
+    background: rgba(255, 255, 255, 0.5);
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 20px;
+    letter-spacing: 5px;
+}
+.title p{
+    color: rgb(78, 71, 71);
+    margin-left: 20px;
+    letter-spacing: 5px;
+}
+
+/* End */
